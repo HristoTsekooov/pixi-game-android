@@ -916,6 +916,7 @@ class Game {
   }
 
   gameOver() {
+    Android.myFunction()
     this.setActiveScene("gameOver");
     this.stopSound();
     let title = this.textObj.customText("GAME OVER", "center", 200);
